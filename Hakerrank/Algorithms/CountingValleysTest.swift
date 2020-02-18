@@ -2,7 +2,7 @@
 //  CountingValleysTest.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/15/20.
+//  Created on 2/15/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 

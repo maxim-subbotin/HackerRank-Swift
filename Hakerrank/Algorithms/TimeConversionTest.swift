@@ -2,7 +2,7 @@
 //  TimeConversionTest.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/12/20.
+//  Created on 2/12/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 

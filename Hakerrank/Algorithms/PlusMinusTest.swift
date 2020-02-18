@@ -2,7 +2,7 @@
 //  PlusMinusTest.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/11/20.
+//  Created on 2/11/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 

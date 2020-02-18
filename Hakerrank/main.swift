@@ -2,7 +2,7 @@
 //  main.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/11/20.
+//  Created on 2/11/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 
@@ -40,7 +40,9 @@ BeautifulDaysAtTheMoviesTest().run()
 ViralAdvertisingTest().run()*/
 //SaveThePrisonerTest().run()
 //CircularArrayRotationTest().run()
-SequenceEquationTest().run()
+//SequenceEquationTest().run()
+
+Array2DTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

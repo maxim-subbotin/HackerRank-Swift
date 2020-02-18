@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60B5D8C23F3E4AF00A1A2B4 /* VeryBigSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D8B23F3E4AF00A1A2B4 /* VeryBigSumTest.swift */; };
+		D60B5D8E23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D8D23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift */; };
+		D60B5D9123F3FAEE00A1A2B4 /* ReverseArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9023F3FAEE00A1A2B4 /* ReverseArrayTest.swift */; };
+		D60B5D9623F407BF00A1A2B4 /* TimeConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9523F407BF00A1A2B4 /* TimeConversionTest.swift */; };
+		D60B5D9823F4113A00A1A2B4 /* GradingStudentsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9723F4113A00A1A2B4 /* GradingStudentsTest.swift */; };
+		D60B5D9A23F41CDD00A1A2B4 /* AppleAndOrangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9923F41CDD00A1A2B4 /* AppleAndOrangeTest.swift */; };
+		D60B5D9C23F42D4000A1A2B4 /* KangarooTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9B23F42D4000A1A2B4 /* KangarooTest.swift */; };
+		D60B5D9E23F4342900A1A2B4 /* BetweenTwoSetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9D23F4342900A1A2B4 /* BetweenTwoSetsTest.swift */; };
+		D60B5DA023F4432700A1A2B4 /* BreakingTheRecordsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9F23F4432700A1A2B4 /* BreakingTheRecordsTest.swift */; };
+		D60B5DA223F4486200A1A2B4 /* BirthdayChocolateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5DA123F4486200A1A2B4 /* BirthdayChocolateTest.swift */; };
+		D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */; };
+		D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */; };
+		D63BA89A23FB33D8000258EC /* AngryProfessorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89523FB33D8000258EC /* AngryProfessorTest.swift */; };
+		D63BA89B23FB33D8000258EC /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89623FB33D8000258EC /* HurdleRace.swift */; };
+		D63BA89C23FB33D8000258EC /* UtopianTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89723FB33D8000258EC /* UtopianTreeTest.swift */; };
+		D63BA89D23FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89823FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift */; };
+		D63BA89E23FB33D8000258EC /* DesignerPDFViewerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89923FB33D8000258EC /* DesignerPDFViewerTest.swift */; };
+		D63BA8A023FB3C3B000258EC /* ViralAdvertisingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89F23FB3C3B000258EC /* ViralAdvertisingTest.swift */; };
+		D63BA8A323FB401B000258EC /* FindThePointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA8A223FB401B000258EC /* FindThePointTest.swift */; };
+		D63BA8A523FB4316000258EC /* MaximumDrawsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA8A423FB4316000258EC /* MaximumDrawsTest.swift */; };
+		D63C3E3623F84F7700A27FB5 /* CatsAndMouseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C3E3523F84F7700A27FB5 /* CatsAndMouseTest.swift */; };
+		D63C3E3823F851E800A27FB5 /* FormingMagicSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */; };
+		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
+		D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */; };
+		D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */; };
+		D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */; };
+		D6D1468423F2A850003FC8C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468323F2A850003FC8C5 /* main.swift */; };
+		D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */; };
+		D6D1468E23F2A925003FC8C5 /* SimpleArraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468D23F2A925003FC8C5 /* SimpleArraySumTest.swift */; };
+		D6D1469023F2B018003FC8C5 /* CompareTheTripletsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468F23F2B018003FC8C5 /* CompareTheTripletsTest.swift */; };
+		D6D1469223F2B682003FC8C5 /* DiagonalDifferenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1469123F2B682003FC8C5 /* DiagonalDifferenceTest.swift */; };
+		D6D1469423F2E029003FC8C5 /* PlusMinusTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1469323F2E029003FC8C5 /* PlusMinusTest.swift */; };
+		D6D1469623F2E704003FC8C5 /* StaircaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1469523F2E704003FC8C5 /* StaircaseTest.swift */; };
+		D6D1469823F302A5003FC8C5 /* MiniMaxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1469723F302A5003FC8C5 /* MiniMaxTest.swift */; };
+		D6DFCB0023F6E20500AA1395 /* DivisibleSumPairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFCAFF23F6E20500AA1395 /* DivisibleSumPairsTest.swift */; };
+		D6DFCB0223F6E4AE00AA1395 /* MigratoryBirdsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFCB0123F6E4AE00AA1395 /* MigratoryBirdsTest.swift */; };
+		D6DFCB0423F6E90E00AA1395 /* DayOfProgrammerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFCB0323F6E90E00AA1395 /* DayOfProgrammerTest.swift */; };
+		D6DFCB0623F6EF0100AA1395 /* BonAppetitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFCB0523F6EF0100AA1395 /* BonAppetitTest.swift */; };
+		D6E8986023FC67A8009DBF2F /* SavePrisonerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */; };
+		D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */; };
+		D6E8986423FC73A2009DBF2F /* SequenceEquationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6D1467E23F2A850003FC8C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D60B5D8B23F3E4AF00A1A2B4 /* VeryBigSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryBigSumTest.swift; sourceTree = "<group>"; };
+		D60B5D8D23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandlesTest.swift; sourceTree = "<group>"; };
+		D60B5D9023F3FAEE00A1A2B4 /* ReverseArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseArrayTest.swift; sourceTree = "<group>"; };
+		D60B5D9523F407BF00A1A2B4 /* TimeConversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversionTest.swift; sourceTree = "<group>"; };
+		D60B5D9723F4113A00A1A2B4 /* GradingStudentsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingStudentsTest.swift; sourceTree = "<group>"; };
+		D60B5D9923F41CDD00A1A2B4 /* AppleAndOrangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAndOrangeTest.swift; sourceTree = "<group>"; };
+		D60B5D9B23F42D4000A1A2B4 /* KangarooTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangarooTest.swift; sourceTree = "<group>"; };
+		D60B5D9D23F4342900A1A2B4 /* BetweenTwoSetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSetsTest.swift; sourceTree = "<group>"; };
+		D60B5D9F23F4432700A1A2B4 /* BreakingTheRecordsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecordsTest.swift; sourceTree = "<group>"; };
+		D60B5DA123F4486200A1A2B4 /* BirthdayChocolateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayChocolateTest.swift; sourceTree = "<group>"; };
+		D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbersTest.swift; sourceTree = "<group>"; };
+		D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingLeaderboardTest.swift; sourceTree = "<group>"; };
+		D63BA89523FB33D8000258EC /* AngryProfessorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessorTest.swift; sourceTree = "<group>"; };
+		D63BA89623FB33D8000258EC /* HurdleRace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
+		D63BA89723FB33D8000258EC /* UtopianTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtopianTreeTest.swift; sourceTree = "<group>"; };
+		D63BA89823FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMoviesTest.swift; sourceTree = "<group>"; };
+		D63BA89923FB33D8000258EC /* DesignerPDFViewerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewerTest.swift; sourceTree = "<group>"; };
+		D63BA89F23FB3C3B000258EC /* ViralAdvertisingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralAdvertisingTest.swift; sourceTree = "<group>"; };
+		D63BA8A223FB401B000258EC /* FindThePointTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindThePointTest.swift; sourceTree = "<group>"; };
+		D63BA8A423FB4316000258EC /* MaximumDrawsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDrawsTest.swift; sourceTree = "<group>"; };
+		D63C3E3523F84F7700A27FB5 /* CatsAndMouseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndMouseTest.swift; sourceTree = "<group>"; };
+		D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormingMagicSquareTest.swift; sourceTree = "<group>"; };
+		D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantTest.swift; sourceTree = "<group>"; };
+		D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBookTest.swift; sourceTree = "<group>"; };
+		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
+		D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShopTest.swift; sourceTree = "<group>"; };
+		D6D1468023F2A850003FC8C5 /* Hakerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hakerrank; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D1468323F2A850003FC8C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTest.swift; sourceTree = "<group>"; };
+		D6D1468D23F2A925003FC8C5 /* SimpleArraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleArraySumTest.swift; sourceTree = "<group>"; };
+		D6D1468F23F2B018003FC8C5 /* CompareTheTripletsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTheTripletsTest.swift; sourceTree = "<group>"; };
+		D6D1469123F2B682003FC8C5 /* DiagonalDifferenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalDifferenceTest.swift; sourceTree = "<group>"; };
+		D6D1469323F2E029003FC8C5 /* PlusMinusTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMinusTest.swift; sourceTree = "<group>"; };
+		D6D1469523F2E704003FC8C5 /* StaircaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTest.swift; sourceTree = "<group>"; };
+		D6D1469723F302A5003FC8C5 /* MiniMaxTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxTest.swift; sourceTree = "<group>"; };
+		D6DFCAFF23F6E20500AA1395 /* DivisibleSumPairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairsTest.swift; sourceTree = "<group>"; };
+		D6DFCB0123F6E4AE00AA1395 /* MigratoryBirdsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirdsTest.swift; sourceTree = "<group>"; };
+		D6DFCB0323F6E90E00AA1395 /* DayOfProgrammerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfProgrammerTest.swift; sourceTree = "<group>"; };
+		D6DFCB0523F6EF0100AA1395 /* BonAppetitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonAppetitTest.swift; sourceTree = "<group>"; };
+		D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePrisonerTest.swift; sourceTree = "<group>"; };
+		D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotationTest.swift; sourceTree = "<group>"; };
+		D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquationTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D1467D23F2A850003FC8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60B5D8F23F3FAC400A1A2B4 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				D60B5D9023F3FAEE00A1A2B4 /* ReverseArrayTest.swift */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		D63BA8A123FB4004000258EC /* Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				D63BA8A223FB401B000258EC /* FindThePointTest.swift */,
+				D63BA8A423FB4316000258EC /* MaximumDrawsTest.swift */,
+			);
+			path = Mathematics;
+			sourceTree = "<group>";
+		};
+		D6D1467723F2A850003FC8C5 = {
+			isa = PBXGroup;
+			children = (
+				D6D1468223F2A850003FC8C5 /* Hakerrank */,
+				D6D1468123F2A850003FC8C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D1468123F2A850003FC8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1468023F2A850003FC8C5 /* Hakerrank */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D1468223F2A850003FC8C5 /* Hakerrank */ = {
+			isa = PBXGroup;
+			children = (
+				D63BA8A123FB4004000258EC /* Mathematics */,
+				D60B5D8F23F3FAC400A1A2B4 /* DataStructures */,
+				D6D1468A23F2A88C003FC8C5 /* Algorithms */,
+				D6D1468323F2A850003FC8C5 /* main.swift */,
+				D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */,
+			);
+			path = Hakerrank;
+			sourceTree = "<group>";
+		};
+		D6D1468A23F2A88C003FC8C5 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				D63BA89523FB33D8000258EC /* AngryProfessorTest.swift */,
+				D63BA89823FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift */,
+				D63BA89923FB33D8000258EC /* DesignerPDFViewerTest.swift */,
+				D63BA89623FB33D8000258EC /* HurdleRace.swift */,
+				D63BA89723FB33D8000258EC /* UtopianTreeTest.swift */,
+				D6D1468D23F2A925003FC8C5 /* SimpleArraySumTest.swift */,
+				D60B5D8B23F3E4AF00A1A2B4 /* VeryBigSumTest.swift */,
+				D6D1468F23F2B018003FC8C5 /* CompareTheTripletsTest.swift */,
+				D6D1469123F2B682003FC8C5 /* DiagonalDifferenceTest.swift */,
+				D6D1469323F2E029003FC8C5 /* PlusMinusTest.swift */,
+				D6D1469523F2E704003FC8C5 /* StaircaseTest.swift */,
+				D6D1469723F302A5003FC8C5 /* MiniMaxTest.swift */,
+				D60B5D8D23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift */,
+				D60B5D9523F407BF00A1A2B4 /* TimeConversionTest.swift */,
+				D60B5D9723F4113A00A1A2B4 /* GradingStudentsTest.swift */,
+				D60B5D9923F41CDD00A1A2B4 /* AppleAndOrangeTest.swift */,
+				D60B5D9B23F42D4000A1A2B4 /* KangarooTest.swift */,
+				D60B5D9D23F4342900A1A2B4 /* BetweenTwoSetsTest.swift */,
+				D60B5D9F23F4432700A1A2B4 /* BreakingTheRecordsTest.swift */,
+				D60B5DA123F4486200A1A2B4 /* BirthdayChocolateTest.swift */,
+				D6DFCAFF23F6E20500AA1395 /* DivisibleSumPairsTest.swift */,
+				D6DFCB0123F6E4AE00AA1395 /* MigratoryBirdsTest.swift */,
+				D6DFCB0323F6E90E00AA1395 /* DayOfProgrammerTest.swift */,
+				D6DFCB0523F6EF0100AA1395 /* BonAppetitTest.swift */,
+				D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */,
+				D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */,
+				D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */,
+				D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */,
+				D63C3E3523F84F7700A27FB5 /* CatsAndMouseTest.swift */,
+				D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */,
+				D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */,
+				D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */,
+				D63BA89F23FB3C3B000258EC /* ViralAdvertisingTest.swift */,
+				D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */,
+				D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */,
+				D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D1467F23F2A850003FC8C5 /* Hakerrank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D1468723F2A850003FC8C5 /* Build configuration list for PBXNativeTarget "Hakerrank" */;
+			buildPhases = (
+				D6D1467C23F2A850003FC8C5 /* Sources */,
+				D6D1467D23F2A850003FC8C5 /* Frameworks */,
+				D6D1467E23F2A850003FC8C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hakerrank;
+			productName = Hakerrank;
+			productReference = D6D1468023F2A850003FC8C5 /* Hakerrank */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D1467823F2A850003FC8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					D6D1467F23F2A850003FC8C5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D6D1467B23F2A850003FC8C5 /* Build configuration list for PBXProject "Hakerrank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D1467723F2A850003FC8C5;
+			productRefGroup = D6D1468123F2A850003FC8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D1467F23F2A850003FC8C5 /* Hakerrank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D1467C23F2A850003FC8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E8986023FC67A8009DBF2F /* SavePrisonerTest.swift in Sources */,
+				D60B5D9C23F42D4000A1A2B4 /* KangarooTest.swift in Sources */,
+				D60B5DA023F4432700A1A2B4 /* BreakingTheRecordsTest.swift in Sources */,
+				D60B5D9A23F41CDD00A1A2B4 /* AppleAndOrangeTest.swift in Sources */,
+				D6DFCB0423F6E90E00AA1395 /* DayOfProgrammerTest.swift in Sources */,
+				D6D1469223F2B682003FC8C5 /* DiagonalDifferenceTest.swift in Sources */,
+				D60B5D8E23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift in Sources */,
+				D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */,
+				D6DFCB0023F6E20500AA1395 /* DivisibleSumPairsTest.swift in Sources */,
+				D6D1469623F2E704003FC8C5 /* StaircaseTest.swift in Sources */,
+				D63BA89A23FB33D8000258EC /* AngryProfessorTest.swift in Sources */,
+				D6E8986423FC73A2009DBF2F /* SequenceEquationTest.swift in Sources */,
+				D63BA89B23FB33D8000258EC /* HurdleRace.swift in Sources */,
+				D63BA8A023FB3C3B000258EC /* ViralAdvertisingTest.swift in Sources */,
+				D63BA8A523FB4316000258EC /* MaximumDrawsTest.swift in Sources */,
+				D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */,
+				D6DFCB0623F6EF0100AA1395 /* BonAppetitTest.swift in Sources */,
+				D60B5D9E23F4342900A1A2B4 /* BetweenTwoSetsTest.swift in Sources */,
+				D63C3E3623F84F7700A27FB5 /* CatsAndMouseTest.swift in Sources */,
+				D63BA89C23FB33D8000258EC /* UtopianTreeTest.swift in Sources */,
+				D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */,
+				D60B5D9623F407BF00A1A2B4 /* TimeConversionTest.swift in Sources */,
+				D63BA8A323FB401B000258EC /* FindThePointTest.swift in Sources */,
+				D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */,
+				D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */,
+				D60B5D9123F3FAEE00A1A2B4 /* ReverseArrayTest.swift in Sources */,
+				D63BA89D23FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift in Sources */,
+				D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */,
+				D6D1468E23F2A925003FC8C5 /* SimpleArraySumTest.swift in Sources */,
+				D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */,
+				D60B5D8C23F3E4AF00A1A2B4 /* VeryBigSumTest.swift in Sources */,
+				D6DFCB0223F6E4AE00AA1395 /* MigratoryBirdsTest.swift in Sources */,
+				D60B5D9823F4113A00A1A2B4 /* GradingStudentsTest.swift in Sources */,
+				D60B5DA223F4486200A1A2B4 /* BirthdayChocolateTest.swift in Sources */,
+				D6D1469023F2B018003FC8C5 /* CompareTheTripletsTest.swift in Sources */,
+				D6D1469423F2E029003FC8C5 /* PlusMinusTest.swift in Sources */,
+				D63BA89E23FB33D8000258EC /* DesignerPDFViewerTest.swift in Sources */,
+				D6D1468423F2A850003FC8C5 /* main.swift in Sources */,
+				D6D1469823F302A5003FC8C5 /* MiniMaxTest.swift in Sources */,
+				D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */,
+				D63C3E3823F851E800A27FB5 /* FormingMagicSquareTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6D1468523F2A850003FC8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D1468623F2A850003FC8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6D1468823F2A850003FC8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QVDV2N2SB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6D1468923F2A850003FC8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QVDV2N2SB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D1467B23F2A850003FC8C5 /* Build configuration list for PBXProject "Hakerrank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D1468523F2A850003FC8C5 /* Debug */,
+				D6D1468623F2A850003FC8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D1468723F2A850003FC8C5 /* Build configuration list for PBXNativeTarget "Hakerrank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D1468823F2A850003FC8C5 /* Debug */,
+				D6D1468923F2A850003FC8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D1467823F2A850003FC8C5 /* Project object */;
+}

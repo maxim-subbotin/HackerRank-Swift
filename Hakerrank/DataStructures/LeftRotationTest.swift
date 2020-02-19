@@ -12,7 +12,7 @@ class LeftRotationTest: PracticeTest {
     let array = [1, 2, 3, 4, 5] // [5, 1, 2, 3, 4]
     let rotationCount = 4
     
-    //let array = [1, 2, 3]
+    //let array = [1, 2, 3] // [3, 1, 2]
     //let rotationCount = 5
     //1: 2 3 1
     //2: 3 1 2
@@ -39,13 +39,16 @@ class LeftRotationTest: PracticeTest {
         for i in 0..<array.count {
             let index = i - n
             if index < 0 {
-                let k = array.count - abs(index) % array.count
-                rotatedArray[k] = array[i]
+                if abs(index) == array.count {
+                    rotatedArray[0] = array[i]
+                } else {
+                    let k = array.count - abs(index) % array.count
+                    rotatedArray[k] = array[i]
+                }
             } else {
                 rotatedArray[index] = array[i]
             }
         }
-        " ".join
         return rotatedArray
     }
 }

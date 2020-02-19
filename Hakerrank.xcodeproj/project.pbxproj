@@ -30,6 +30,7 @@
 		D63C3E3623F84F7700A27FB5 /* CatsAndMouseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C3E3523F84F7700A27FB5 /* CatsAndMouseTest.swift */; };
 		D63C3E3823F851E800A27FB5 /* FormingMagicSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */; };
 		D65BF0C023FC872E00E91BBE /* 2DArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */; };
+		D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */; };
 		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
 		D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */; };
 		D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */; };
@@ -87,6 +88,7 @@
 		D63C3E3523F84F7700A27FB5 /* CatsAndMouseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndMouseTest.swift; sourceTree = "<group>"; };
 		D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormingMagicSquareTest.swift; sourceTree = "<group>"; };
 		D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2DArrayTest.swift; sourceTree = "<group>"; };
+		D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumHeightTriangleTest.swift; sourceTree = "<group>"; };
 		D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantTest.swift; sourceTree = "<group>"; };
 		D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBookTest.swift; sourceTree = "<group>"; };
 		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		D63BA8A123FB4004000258EC /* Mathematics */ = {
 			isa = PBXGroup;
 			children = (
+				D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */,
 				D63BA8A223FB401B000258EC /* FindThePointTest.swift */,
 				D63BA8A423FB4316000258EC /* MaximumDrawsTest.swift */,
 			);
@@ -282,6 +285,7 @@
 				D63BA89B23FB33D8000258EC /* HurdleRace.swift in Sources */,
 				D63BA8A023FB3C3B000258EC /* ViralAdvertisingTest.swift in Sources */,
 				D63BA8A523FB4316000258EC /* MaximumDrawsTest.swift in Sources */,
+				D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */,
 				D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */,
 				D6DFCB0623F6EF0100AA1395 /* BonAppetitTest.swift in Sources */,
 				D60B5D9E23F4342900A1A2B4 /* BetweenTwoSetsTest.swift in Sources */,

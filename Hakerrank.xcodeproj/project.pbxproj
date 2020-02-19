@@ -39,6 +39,7 @@
 		D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */; };
 		D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */; };
 		D6C84E7B23FDBCD0006B5B2E /* SparseArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */; };
+		D6C84E7D23FDC47B006B5B2E /* ArrayManipulationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */; };
 		D6D1468423F2A850003FC8C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468323F2A850003FC8C5 /* main.swift */; };
 		D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */; };
 		D6D1468E23F2A925003FC8C5 /* SimpleArraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468D23F2A925003FC8C5 /* SimpleArraySumTest.swift */; };
@@ -101,6 +102,7 @@
 		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
 		D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShopTest.swift; sourceTree = "<group>"; };
 		D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparseArraysTest.swift; sourceTree = "<group>"; };
+		D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulationTest.swift; sourceTree = "<group>"; };
 		D6D1468023F2A850003FC8C5 /* Hakerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hakerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D1468323F2A850003FC8C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTest.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */,
 				D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */,
 				D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */,
+				D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				D60B5D9A23F41CDD00A1A2B4 /* AppleAndOrangeTest.swift in Sources */,
 				D6DFCB0423F6E90E00AA1395 /* DayOfProgrammerTest.swift in Sources */,
 				D6D1469223F2B682003FC8C5 /* DiagonalDifferenceTest.swift in Sources */,
+				D6C84E7D23FDC47B006B5B2E /* ArrayManipulationTest.swift in Sources */,
 				D60B5D8E23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift in Sources */,
 				D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */,
 				D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */,

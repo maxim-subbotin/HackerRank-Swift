@@ -44,7 +44,9 @@ ViralAdvertisingTest().run()*/
 
 //Array2DTest().run()
 //LeftRotationTest().run()
-SparseArraysTest().run()
+//SparseArraysTest().run()
+
+ArrayManipilationTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

@@ -31,6 +31,8 @@
 		D63C3E3823F851E800A27FB5 /* FormingMagicSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */; };
 		D65BF0C023FC872E00E91BBE /* 2DArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */; };
 		D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */; };
+		D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */; };
+		D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */; };
 		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
 		D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */; };
 		D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */; };
@@ -89,6 +91,8 @@
 		D63C3E3723F851E800A27FB5 /* FormingMagicSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormingMagicSquareTest.swift; sourceTree = "<group>"; };
 		D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2DArrayTest.swift; sourceTree = "<group>"; };
 		D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumHeightTriangleTest.swift; sourceTree = "<group>"; };
+		D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandshakeTest.swift; sourceTree = "<group>"; };
+		D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyGameTest.swift; sourceTree = "<group>"; };
 		D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantTest.swift; sourceTree = "<group>"; };
 		D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBookTest.swift; sourceTree = "<group>"; };
 		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 		D63BA8A123FB4004000258EC /* Mathematics */ = {
 			isa = PBXGroup;
 			children = (
+				D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */,
+				D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */,
 				D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */,
 				D63BA8A223FB401B000258EC /* FindThePointTest.swift */,
 				D63BA8A423FB4316000258EC /* MaximumDrawsTest.swift */,
@@ -295,7 +301,9 @@
 				D60B5D9623F407BF00A1A2B4 /* TimeConversionTest.swift in Sources */,
 				D63BA8A323FB401B000258EC /* FindThePointTest.swift in Sources */,
 				D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */,
+				D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */,
 				D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */,
+				D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */,
 				D60B5D9123F3FAEE00A1A2B4 /* ReverseArrayTest.swift in Sources */,
 				D63BA89D23FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift in Sources */,
 				D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */,

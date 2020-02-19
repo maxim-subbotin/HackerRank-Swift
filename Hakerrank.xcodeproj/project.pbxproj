@@ -17,6 +17,7 @@
 		D60B5D9E23F4342900A1A2B4 /* BetweenTwoSetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9D23F4342900A1A2B4 /* BetweenTwoSetsTest.swift */; };
 		D60B5DA023F4432700A1A2B4 /* BreakingTheRecordsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5D9F23F4432700A1A2B4 /* BreakingTheRecordsTest.swift */; };
 		D60B5DA223F4486200A1A2B4 /* BirthdayChocolateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B5DA123F4486200A1A2B4 /* BirthdayChocolateTest.swift */; };
+		D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */; };
 		D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */; };
 		D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */; };
 		D63BA89A23FB33D8000258EC /* AngryProfessorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BA89523FB33D8000258EC /* AngryProfessorTest.swift */; };
@@ -77,6 +78,7 @@
 		D60B5D9D23F4342900A1A2B4 /* BetweenTwoSetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSetsTest.swift; sourceTree = "<group>"; };
 		D60B5D9F23F4432700A1A2B4 /* BreakingTheRecordsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecordsTest.swift; sourceTree = "<group>"; };
 		D60B5DA123F4486200A1A2B4 /* BirthdayChocolateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayChocolateTest.swift; sourceTree = "<group>"; };
+		D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotationTest.swift; sourceTree = "<group>"; };
 		D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbersTest.swift; sourceTree = "<group>"; };
 		D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingLeaderboardTest.swift; sourceTree = "<group>"; };
 		D63BA89523FB33D8000258EC /* AngryProfessorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessorTest.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				D60B5D9023F3FAEE00A1A2B4 /* ReverseArrayTest.swift */,
 				D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */,
+				D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				D6D1469223F2B682003FC8C5 /* DiagonalDifferenceTest.swift in Sources */,
 				D60B5D8E23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift in Sources */,
 				D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */,
+				D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */,
 				D6DFCB0023F6E20500AA1395 /* DivisibleSumPairsTest.swift in Sources */,
 				D6D1469623F2E704003FC8C5 /* StaircaseTest.swift in Sources */,
 				D63BA89A23FB33D8000258EC /* AngryProfessorTest.swift in Sources */,

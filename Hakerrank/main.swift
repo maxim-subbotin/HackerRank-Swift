@@ -42,7 +42,8 @@ ViralAdvertisingTest().run()*/
 //CircularArrayRotationTest().run()
 //SequenceEquationTest().run()
 
-Array2DTest().run()
+//Array2DTest().run()
+LeftRotationTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

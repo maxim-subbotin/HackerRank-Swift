@@ -26,36 +26,7 @@ class ClimbingLeaderboardTest: PracticeTest {
     }
     
     override func execute() -> Any? {
-        loadTestData()
-        
         return processScores(allScores, myScores: myScores)
-    }
-    
-    func loadTestData() {
-        // load test data
-        let path = "/Users/snappii/Documents/Dev/Hakerrank/Hakerrank/TestData/ClimbingLeaderboard/ClimbingLeaderboardTestData_1.txt"
-        do {
-            let data = try String(contentsOfFile: path, encoding: .utf8)
-            let strings = data.components(separatedBy: .newlines)
-            
-            let count1 = strings[0]
-            let data1 = strings[1]
-            allScores = data1.components(separatedBy: .whitespaces).map({ Int($0)! })
-            let count2 = strings[2]
-            myScores = strings[3].components(separatedBy: .whitespaces).map({ Int($0)! })
-
-        } catch {
-            print(error)
-        }
-        
-        // load result data
-        let path2 = "/Users/snappii/Documents/Dev/Hakerrank/Hakerrank/TestData/ClimbingLeaderboard/ClimbingLeaderboardTestResult_1.txt"
-        do {
-            let data = try String(contentsOfFile: path2, encoding: .utf8)
-            testResult = data.components(separatedBy: .newlines).filter({ $0.count > 0 }).map({ Int($0) ?? 0 })
-        } catch {
-            print(error)
-        }
     }
     
     func processScores(_ allScores: [Int], myScores: [Int]) -> [Int] {

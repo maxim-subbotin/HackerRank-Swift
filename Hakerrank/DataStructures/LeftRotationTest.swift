@@ -2,7 +2,7 @@
 //  LeftRotationTest.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/19/20.
+//  Created on 2/19/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 

@@ -43,6 +43,7 @@
 		D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */; };
 		D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */; };
 		D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192623FF251900D71B8F /* GetNodeValueTest.swift */; };
+		D69E192923FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */; };
 		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
 		D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */; };
 		D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */; };
@@ -117,6 +118,7 @@
 		D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyGameTest.swift; sourceTree = "<group>"; };
 		D69E192523FF077900D71B8F /* array_manipulation_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = array_manipulation_data.txt; path = Data/array_manipulation_data.txt; sourceTree = "<group>"; };
 		D69E192623FF251900D71B8F /* GetNodeValueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNodeValueTest.swift; sourceTree = "<group>"; };
+		D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesFromLinkedListTest.swift; sourceTree = "<group>"; };
 		D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantTest.swift; sourceTree = "<group>"; };
 		D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBookTest.swift; sourceTree = "<group>"; };
 		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 				D622DE1323FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift */,
 				D622DE1723FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift */,
 				D69E192623FF251900D71B8F /* GetNodeValueTest.swift */,
+				D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */,
 				D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */,
 				D6DFCB0023F6E20500AA1395 /* DivisibleSumPairsTest.swift in Sources */,
+				D69E192923FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift in Sources */,
 				D6D1469623F2E704003FC8C5 /* StaircaseTest.swift in Sources */,
 				D63BA89A23FB33D8000258EC /* AngryProfessorTest.swift in Sources */,
 				D6E8986423FC73A2009DBF2F /* SequenceEquationTest.swift in Sources */,

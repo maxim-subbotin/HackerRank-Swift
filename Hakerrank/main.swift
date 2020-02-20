@@ -55,7 +55,8 @@ ViralAdvertisingTest().run()*/
 //ReverseLinkedListTest().run()
 //CompareTwoLinkedListsTest().run()
 //MergeTwoSortedLinkedListsTest().run()
-GetNodeValueTest().run()
+//GetNodeValueTest().run()
+DeleteDuplicatesFromLinkedListTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

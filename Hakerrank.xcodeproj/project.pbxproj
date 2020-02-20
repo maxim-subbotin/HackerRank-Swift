@@ -22,6 +22,9 @@
 		D622DE0E23FE94AF00CB90F7 /* DeleteNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE0D23FE94AF00CB90F7 /* DeleteNodeTest.swift */; };
 		D622DE1023FEAF8A00CB90F7 /* PrintInReverseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE0F23FEAF8A00CB90F7 /* PrintInReverseTest.swift */; };
 		D622DE1223FEB94600CB90F7 /* ReverseLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE1123FEB94600CB90F7 /* ReverseLinkedListTest.swift */; };
+		D622DE1423FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE1323FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift */; };
+		D622DE1623FEC75300CB90F7 /* InsertNodeAtTailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE1523FEC75300CB90F7 /* InsertNodeAtTailTest.swift */; };
+		D622DE1823FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE1723FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift */; };
 		D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */; };
 		D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */; };
 		D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */; };
@@ -91,6 +94,9 @@
 		D622DE0D23FE94AF00CB90F7 /* DeleteNodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNodeTest.swift; sourceTree = "<group>"; };
 		D622DE0F23FEAF8A00CB90F7 /* PrintInReverseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintInReverseTest.swift; sourceTree = "<group>"; };
 		D622DE1123FEB94600CB90F7 /* ReverseLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListTest.swift; sourceTree = "<group>"; };
+		D622DE1323FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTwoLinkedListsTest.swift; sourceTree = "<group>"; };
+		D622DE1523FEC75300CB90F7 /* InsertNodeAtTailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNodeAtTailTest.swift; sourceTree = "<group>"; };
+		D622DE1723FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLinkedListsTest.swift; sourceTree = "<group>"; };
 		D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotationTest.swift; sourceTree = "<group>"; };
 		D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbersTest.swift; sourceTree = "<group>"; };
 		D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingLeaderboardTest.swift; sourceTree = "<group>"; };
@@ -253,10 +259,13 @@
 			children = (
 				D6FD9BDC23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift */,
 				D622DE0923FE794C00CB90F7 /* InsertNodeAtHeadTest.swift */,
+				D622DE1523FEC75300CB90F7 /* InsertNodeAtTailTest.swift */,
 				D622DE0B23FE800600CB90F7 /* InsertNodeAtPositionTest.swift */,
 				D622DE0D23FE94AF00CB90F7 /* DeleteNodeTest.swift */,
 				D622DE0F23FEAF8A00CB90F7 /* PrintInReverseTest.swift */,
 				D622DE1123FEB94600CB90F7 /* ReverseLinkedListTest.swift */,
+				D622DE1323FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift */,
+				D622DE1723FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -340,6 +349,7 @@
 				D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */,
 				D6DFCB0623F6EF0100AA1395 /* BonAppetitTest.swift in Sources */,
 				D60B5D9E23F4342900A1A2B4 /* BetweenTwoSetsTest.swift in Sources */,
+				D622DE1823FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift in Sources */,
 				D622DE0A23FE794C00CB90F7 /* InsertNodeAtHeadTest.swift in Sources */,
 				D63C3E3623F84F7700A27FB5 /* CatsAndMouseTest.swift in Sources */,
 				D63BA89C23FB33D8000258EC /* UtopianTreeTest.swift in Sources */,
@@ -353,6 +363,7 @@
 				D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */,
 				D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */,
 				D60B5D9123F3FAEE00A1A2B4 /* ReverseArrayTest.swift in Sources */,
+				D622DE1423FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift in Sources */,
 				D63BA89D23FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift in Sources */,
 				D6FD9BDD23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift in Sources */,
 				D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */,
@@ -373,6 +384,7 @@
 				D6D1469823F302A5003FC8C5 /* MiniMaxTest.swift in Sources */,
 				D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */,
 				D63C3E3823F851E800A27FB5 /* FormingMagicSquareTest.swift in Sources */,
+				D622DE1623FEC75300CB90F7 /* InsertNodeAtTailTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

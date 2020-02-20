@@ -55,6 +55,7 @@
 		D6E8986023FC67A8009DBF2F /* SavePrisonerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */; };
 		D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */; };
 		D6E8986423FC73A2009DBF2F /* SequenceEquationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */; };
+		D6FD9BDD23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD9BDC23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,7 @@
 		D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePrisonerTest.swift; sourceTree = "<group>"; };
 		D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotationTest.swift; sourceTree = "<group>"; };
 		D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquationTest.swift; sourceTree = "<group>"; };
+		D6FD9BDC23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintElementsOfLinkedListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,11 +137,8 @@
 		D60B5D8F23F3FAC400A1A2B4 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				D60B5D9023F3FAEE00A1A2B4 /* ReverseArrayTest.swift */,
-				D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */,
-				D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */,
-				D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */,
-				D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */,
+				D6FD9BDB23FE62EF001C420C /* LinkedLists */,
+				D6FD9BDA23FE62DB001C420C /* Arrays */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -225,6 +224,26 @@
 				D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		D6FD9BDA23FE62DB001C420C /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				D60B5D9023F3FAEE00A1A2B4 /* ReverseArrayTest.swift */,
+				D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */,
+				D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */,
+				D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */,
+				D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		D6FD9BDB23FE62EF001C420C /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD9BDC23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift */,
+			);
+			path = LinkedLists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +336,7 @@
 				D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */,
 				D60B5D9123F3FAEE00A1A2B4 /* ReverseArrayTest.swift in Sources */,
 				D63BA89D23FB33D8000258EC /* BeautifulDaysAtTheMoviesTest.swift in Sources */,
+				D6FD9BDD23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift in Sources */,
 				D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */,
 				D6D1468E23F2A925003FC8C5 /* SimpleArraySumTest.swift in Sources */,
 				D6C84E7B23FDBCD0006B5B2E /* SparseArraysTest.swift in Sources */,

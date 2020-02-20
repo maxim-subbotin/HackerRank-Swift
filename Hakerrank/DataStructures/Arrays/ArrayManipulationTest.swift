@@ -8,16 +8,29 @@
 
 import Foundation
 
-class ArrayManipilationTest: PracticeTest {
+class ArrayManipulationTest: PracticeTest {
     //let n = 10
     //let queries = [[1, 5, 3],
     //               [4, 8, 7],
     //               [6, 9, 1]] // max = 10
     
-    let n = 5
-    let queries = [[1, 2, 100],
+    var n = 5
+    var queries = [[1, 2, 100],
                    [2, 5, 100],
                    [3, 4, 100]] // max = 200
+    
+    /*var n = 10
+    var queries = [[2, 6, 8],
+    [3, 5, 7],
+    [1, 8, 1],
+    [5, 9, 15]] // max = 31
+    */
+    
+    /*var n = 4
+    var queries = [[2, 3, 603],
+    [1, 1, 286],
+    [4, 4, 882]] // max = 882
+    */
     
     //max from data file: 2490686975
     
@@ -35,6 +48,7 @@ class ArrayManipilationTest: PracticeTest {
     }
     
     override func execute() -> Any? {
+        loadData()
         return applyManipulations(n: n, queries: queries)
     }
     
@@ -45,57 +59,54 @@ class ArrayManipilationTest: PracticeTest {
         var val = 0
     }
     
-    func applyManipulations(n: Int, queries: [[Int]]) -> Int {
-        var intervals = [Interval]()
-        var n = 0
-        for q in queries {
-            let interval = Interval(num: n, start: q[0], end: q[1], val: q[2])
-            intervals.append(interval)
-            n += 1
-        }
-        intervals.sort(by: { $0.start < $1.start })
-        
-        var currentIntervals = [Interval]()
-        var max = 0
-        for interval in intervals {
-            let outerIntervals = currentIntervals.filter({ $0.end < interval.start })
-            for outInt in outerIntervals {
-                if let index = currentIntervals.firstIndex(where: { $0.num == outInt.num }) {
-                    currentIntervals.remove(at: index)
-                }
-            }
-            currentIntervals.append(interval)
-            
-            var currentSum = 0
-            for curInt in currentIntervals {
-                currentSum += curInt.val
-            }
-            
-            if currentSum > max {
-                max = currentSum
-            }
-        }
-        
-        return max
+    struct Point {
+        var x = 0
+        var val = 0
     }
     
-    // not optimal solution, need to improve
-    /*func applyManipulations(n: Int, queries: [[Int]]) -> Int {
-        var array = Array(repeating: 0, count: n)
-        for i in 0..<queries.count {
-            let from = queries[i][0] - 1
-            let to = queries[i][1] - 1
-            let s = queries[i][2]
-            for j in from...to {
-                array[j] += s
+    func applyManipulations(n: Int, queries: [[Int]]) -> Int {
+        var dict = [Int:Int]()
+        for query in queries {
+            if dict[query[0]] == nil {
+                dict[query[0]] = query[2]
+            } else {
+                dict[query[0]]! += query[2]
+            }
+            if dict[query[1] + 1] == nil {
+                dict[query[1] + 1] = -query[2]
+            } else {
+                dict[query[1] + 1]! -= query[2]
             }
         }
         
         var maxValue = 0
-        for i in 0..<array.count {
-            maxValue = max(maxValue, array[i])
+        var sum = 0
+        for point in dict.keys.sorted() {
+            sum += dict[point]!
+            if sum > maxValue {
+                maxValue = sum
+            }
         }
         
         return maxValue
-    }*/
+    }
+    
+    func loadData() {
+        let path = "/Volumes/Data/GitHub/HackerRank-Swift/Hakerrank/Data/array_manipulation_data.txt"
+        do {
+            n = 10000000
+            queries = [[Int]]()
+            
+            let data = try String(contentsOfFile: path, encoding: .utf8)
+            let strings = data.components(separatedBy: .newlines)
+            for i in 1..<strings.count {
+                let parts = strings[i].components(separatedBy: " ")
+                let row = [Int(parts[0])!, Int(parts[1])!, Int(parts[2])!]
+                queries.append(row)
+            }
+        } catch {
+            print(error)
+        }
+
+    }
 }

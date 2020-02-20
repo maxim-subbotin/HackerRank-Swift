@@ -114,6 +114,7 @@
 		D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumHeightTriangleTest.swift; sourceTree = "<group>"; };
 		D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandshakeTest.swift; sourceTree = "<group>"; };
 		D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyGameTest.swift; sourceTree = "<group>"; };
+		D69E192523FF077900D71B8F /* array_manipulation_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = array_manipulation_data.txt; path = Data/array_manipulation_data.txt; sourceTree = "<group>"; };
 		D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantTest.swift; sourceTree = "<group>"; };
 		D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBookTest.swift; sourceTree = "<group>"; };
 		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
@@ -171,6 +172,14 @@
 			path = Mathematics;
 			sourceTree = "<group>";
 		};
+		D69E192423FF076800D71B8F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D69E192523FF077900D71B8F /* array_manipulation_data.txt */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		D6D1467723F2A850003FC8C5 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +199,7 @@
 		D6D1468223F2A850003FC8C5 /* Hakerrank */ = {
 			isa = PBXGroup;
 			children = (
+				D69E192423FF076800D71B8F /* Data */,
 				D63BA8A123FB4004000258EC /* Mathematics */,
 				D60B5D8F23F3FAC400A1A2B4 /* DataStructures */,
 				D6D1468A23F2A88C003FC8C5 /* Algorithms */,

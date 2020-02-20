@@ -71,4 +71,44 @@ class MergeTwoSortedLinkedListsTest: PracticeTest {
         
         return merged
     }
+    
+    /*
+     Python code:
+     
+     def mergeLists(head1, head2):
+         if not head1 and head2:
+             return head2
+         if not head2 and head1:
+             return head1
+         node1 = head1
+         node2 = head2
+         merged = None
+         if node1.data < node2.data:
+             merged = node1
+             node1 = node1.next
+         else:
+             merged = node2
+             node2 = node2.next
+         mergedNode = merged
+         while node1 or node2:
+             if node1 and node2:
+                 if node1.data < node2.data:
+                     mergedNode.next = node1
+                     mergedNode = node1
+                     node1 = node1.next
+                 else:
+                     mergedNode.next = node2
+                     mergedNode = node2
+                     node2 = node2.next
+             elif node2:
+                 mergedNode.next = node2
+                 mergedNode = node2
+                 node2 = node2.next
+             elif node1:
+                 mergedNode.next = node1
+                 mergedNode = node1
+                 node1 = node1.next
+         return merged
+     
+     */
 }

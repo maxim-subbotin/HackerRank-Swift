@@ -19,6 +19,8 @@ class ArrayManipilationTest: PracticeTest {
                    [2, 5, 100],
                    [3, 4, 100]] // max = 200
     
+    //max from data file: 2490686975
+    
     override func preExecuteAction() {
         print("Array Manipulation")
     }

@@ -42,6 +42,15 @@ final class SinglyLinkedList {
 
         tail = node
     }
+    
+    public func printContent() {
+        var node = head
+        print(node?.data ?? "")
+        while node?.next != nil {
+            node = node?.next
+            print(node?.data ?? "")
+        }
+    }
 }
 
 class PrintElementsOfLinkedListTest: PracticeTest {

@@ -15,6 +15,15 @@ final class SinglyLinkedListNode {
     public init(nodeData: Int) {
         self.data = nodeData
     }
+    
+    public func printContent() {
+        var node: SinglyLinkedListNode? = self
+        print(node?.data ?? "")
+        while node?.next != nil {
+            node = node?.next
+            print(node?.data ?? "")
+        }
+    }
 }
 
 final class SinglyLinkedList {

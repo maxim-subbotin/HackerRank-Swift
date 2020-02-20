@@ -45,8 +45,16 @@ ViralAdvertisingTest().run()*/
 //Array2DTest().run()
 //LeftRotationTest().run()
 //SparseArraysTest().run()
-
-ArrayManipilationTest().run()
+//ArrayManipilationTest().run()
+//PrintElementsOfLinkedListTest().run()
+//InsertNodeAtHeadTest().run()
+//InsertNodeAtTailTest().run()
+//InsertNodeAtPositionTest().run()
+//DeleteNodeTest().run()
+//PrintInReverseTest().run()
+//ReverseLinkedListTest().run()
+//CompareTwoLinkedListsTest().run()
+MergeTwoSortedLinkedListsTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

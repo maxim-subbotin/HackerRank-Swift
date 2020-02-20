@@ -36,8 +36,49 @@ class ArrayManipilationTest: PracticeTest {
         return applyManipulations(n: n, queries: queries)
     }
     
-    // not optimal solution, need to improve
+    struct Interval {
+        var num = 0
+        var start = 0
+        var end = 0
+        var val = 0
+    }
+    
     func applyManipulations(n: Int, queries: [[Int]]) -> Int {
+        var intervals = [Interval]()
+        var n = 0
+        for q in queries {
+            let interval = Interval(num: n, start: q[0], end: q[1], val: q[2])
+            intervals.append(interval)
+            n += 1
+        }
+        intervals.sort(by: { $0.start < $1.start })
+        
+        var currentIntervals = [Interval]()
+        var max = 0
+        for interval in intervals {
+            let outerIntervals = currentIntervals.filter({ $0.end < interval.start })
+            for outInt in outerIntervals {
+                if let index = currentIntervals.firstIndex(where: { $0.num == outInt.num }) {
+                    currentIntervals.remove(at: index)
+                }
+            }
+            currentIntervals.append(interval)
+            
+            var currentSum = 0
+            for curInt in currentIntervals {
+                currentSum += curInt.val
+            }
+            
+            if currentSum > max {
+                max = currentSum
+            }
+        }
+        
+        return max
+    }
+    
+    // not optimal solution, need to improve
+    /*func applyManipulations(n: Int, queries: [[Int]]) -> Int {
         var array = Array(repeating: 0, count: n)
         for i in 0..<queries.count {
             let from = queries[i][0] - 1
@@ -54,5 +95,5 @@ class ArrayManipilationTest: PracticeTest {
         }
         
         return maxValue
-    }
+    }*/
 }

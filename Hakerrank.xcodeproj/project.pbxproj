@@ -20,6 +20,7 @@
 		D622DE0A23FE794C00CB90F7 /* InsertNodeAtHeadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE0923FE794C00CB90F7 /* InsertNodeAtHeadTest.swift */; };
 		D622DE0C23FE800600CB90F7 /* InsertNodeAtPositionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE0B23FE800600CB90F7 /* InsertNodeAtPositionTest.swift */; };
 		D622DE0E23FE94AF00CB90F7 /* DeleteNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE0D23FE94AF00CB90F7 /* DeleteNodeTest.swift */; };
+		D622DE1023FEAF8A00CB90F7 /* PrintInReverseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622DE0F23FEAF8A00CB90F7 /* PrintInReverseTest.swift */; };
 		D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */; };
 		D6383BCA23F9A624006CAE27 /* PickingNumbersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */; };
 		D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */; };
@@ -87,6 +88,7 @@
 		D622DE0923FE794C00CB90F7 /* InsertNodeAtHeadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNodeAtHeadTest.swift; sourceTree = "<group>"; };
 		D622DE0B23FE800600CB90F7 /* InsertNodeAtPositionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNodeAtPositionTest.swift; sourceTree = "<group>"; };
 		D622DE0D23FE94AF00CB90F7 /* DeleteNodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNodeTest.swift; sourceTree = "<group>"; };
+		D622DE0F23FEAF8A00CB90F7 /* PrintInReverseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintInReverseTest.swift; sourceTree = "<group>"; };
 		D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotationTest.swift; sourceTree = "<group>"; };
 		D6383BC923F9A624006CAE27 /* PickingNumbersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbersTest.swift; sourceTree = "<group>"; };
 		D6383BCB23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingLeaderboardTest.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				D622DE0923FE794C00CB90F7 /* InsertNodeAtHeadTest.swift */,
 				D622DE0B23FE800600CB90F7 /* InsertNodeAtPositionTest.swift */,
 				D622DE0D23FE94AF00CB90F7 /* DeleteNodeTest.swift */,
+				D622DE0F23FEAF8A00CB90F7 /* PrintInReverseTest.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */,
 				D60B5D8C23F3E4AF00A1A2B4 /* VeryBigSumTest.swift in Sources */,
 				D6DFCB0223F6E4AE00AA1395 /* MigratoryBirdsTest.swift in Sources */,
+				D622DE1023FEAF8A00CB90F7 /* PrintInReverseTest.swift in Sources */,
 				D60B5D9823F4113A00A1A2B4 /* GradingStudentsTest.swift in Sources */,
 				D60B5DA223F4486200A1A2B4 /* BirthdayChocolateTest.swift in Sources */,
 				D622DE0C23FE800600CB90F7 /* InsertNodeAtPositionTest.swift in Sources */,

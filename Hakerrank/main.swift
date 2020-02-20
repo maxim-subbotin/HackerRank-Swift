@@ -49,7 +49,8 @@ ViralAdvertisingTest().run()*/
 //PrintElementsOfLinkedListTest().run()
 //InsertNodeAtHeadTest().run()
 //InsertNodeAtPositionTest().run()
-DeleteNodeTest().run()
+//DeleteNodeTest().run()
+PrintInReverseTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

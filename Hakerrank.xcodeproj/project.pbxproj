@@ -42,6 +42,7 @@
 		D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */; };
 		D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */; };
 		D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */; };
+		D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192623FF251900D71B8F /* GetNodeValueTest.swift */; };
 		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
 		D6C4BC5723F7D57D0082A0BA /* DrawingBookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */; };
 		D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */; };
@@ -115,6 +116,7 @@
 		D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandshakeTest.swift; sourceTree = "<group>"; };
 		D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyGameTest.swift; sourceTree = "<group>"; };
 		D69E192523FF077900D71B8F /* array_manipulation_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = array_manipulation_data.txt; path = Data/array_manipulation_data.txt; sourceTree = "<group>"; };
+		D69E192623FF251900D71B8F /* GetNodeValueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNodeValueTest.swift; sourceTree = "<group>"; };
 		D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchantTest.swift; sourceTree = "<group>"; };
 		D6C4BC5623F7D57D0082A0BA /* DrawingBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBookTest.swift; sourceTree = "<group>"; };
 		D6C4BC5823F7D8FA0082A0BA /* CountingValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleysTest.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				D622DE1123FEB94600CB90F7 /* ReverseLinkedListTest.swift */,
 				D622DE1323FEBD0500CB90F7 /* CompareTwoLinkedListsTest.swift */,
 				D622DE1723FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift */,
+				D69E192623FF251900D71B8F /* GetNodeValueTest.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			files = (
 				D6E8986023FC67A8009DBF2F /* SavePrisonerTest.swift in Sources */,
 				D60B5D9C23F42D4000A1A2B4 /* KangarooTest.swift in Sources */,
+				D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */,
 				D60B5DA023F4432700A1A2B4 /* BreakingTheRecordsTest.swift in Sources */,
 				D60B5D9A23F41CDD00A1A2B4 /* AppleAndOrangeTest.swift in Sources */,
 				D6DFCB0423F6E90E00AA1395 /* DayOfProgrammerTest.swift in Sources */,

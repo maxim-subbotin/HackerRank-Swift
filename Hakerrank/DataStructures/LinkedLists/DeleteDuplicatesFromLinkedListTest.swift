@@ -2,7 +2,7 @@
 //  DeleteDuplicatesFromLinkedListTest.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/20/20.
+//  Created on 2/20/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 

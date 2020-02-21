@@ -41,6 +41,11 @@ ViralAdvertisingTest().run()*/
 //SaveThePrisonerTest().run()
 //CircularArrayRotationTest().run()
 //SequenceEquationTest().run()
+//BetweenTwoSetsTest().run()
+//FindDigitsTest().run()
+//ExtraLongFactorialsTest().run()
+AppendAndDeleteTest().run()
+
 
 //Array2DTest().run()
 //LeftRotationTest().run()
@@ -56,7 +61,7 @@ ViralAdvertisingTest().run()*/
 //CompareTwoLinkedListsTest().run()
 //MergeTwoSortedLinkedListsTest().run()
 //GetNodeValueTest().run()
-DeleteDuplicatesFromLinkedListTest().run()
+//DeleteDuplicatesFromLinkedListTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()

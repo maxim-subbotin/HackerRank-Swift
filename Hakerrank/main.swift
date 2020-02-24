@@ -47,7 +47,8 @@ ViralAdvertisingTest().run()*/
 //AppendAndDeleteTest().run()
 //SherlockAndSquaresTest().run()
 //LibraryFineTest().run()
-CutTheSticksTest().run()
+//CutTheSticksTest().run()
+NonDivisibleSubsetTest().run()
 
 
 //Array2DTest().run()

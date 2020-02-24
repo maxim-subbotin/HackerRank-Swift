@@ -41,6 +41,7 @@
 		D646F74E240441FA008FA2B8 /* SherlockAndSquaresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646F74D240441FA008FA2B8 /* SherlockAndSquaresTest.swift */; };
 		D646F750240446D0008FA2B8 /* LibraryFineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646F74F240446D0008FA2B8 /* LibraryFineTest.swift */; };
 		D646F75224044A7D008FA2B8 /* CutTheSticksTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646F75124044A7D008FA2B8 /* CutTheSticksTest.swift */; };
+		D646F7542404500E008FA2B8 /* NonDivisibleSubsetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646F7532404500E008FA2B8 /* NonDivisibleSubsetTest.swift */; };
 		D65BF0C023FC872E00E91BBE /* 2DArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */; };
 		D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */; };
 		D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */; };
@@ -121,6 +122,7 @@
 		D646F74D240441FA008FA2B8 /* SherlockAndSquaresTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquaresTest.swift; sourceTree = "<group>"; };
 		D646F74F240446D0008FA2B8 /* LibraryFineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFineTest.swift; sourceTree = "<group>"; };
 		D646F75124044A7D008FA2B8 /* CutTheSticksTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutTheSticksTest.swift; sourceTree = "<group>"; };
+		D646F7532404500E008FA2B8 /* NonDivisibleSubsetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDivisibleSubsetTest.swift; sourceTree = "<group>"; };
 		D65BF0BF23FC872E00E91BBE /* 2DArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2DArrayTest.swift; sourceTree = "<group>"; };
 		D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumHeightTriangleTest.swift; sourceTree = "<group>"; };
 		D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandshakeTest.swift; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				D646F74D240441FA008FA2B8 /* SherlockAndSquaresTest.swift */,
 				D646F74F240446D0008FA2B8 /* LibraryFineTest.swift */,
 				D646F75124044A7D008FA2B8 /* CutTheSticksTest.swift */,
+				D646F7532404500E008FA2B8 /* NonDivisibleSubsetTest.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				D622DE1223FEB94600CB90F7 /* ReverseLinkedListTest.swift in Sources */,
 				D60B5D9623F407BF00A1A2B4 /* TimeConversionTest.swift in Sources */,
 				D63BA8A323FB401B000258EC /* FindThePointTest.swift in Sources */,
+				D646F7542404500E008FA2B8 /* NonDivisibleSubsetTest.swift in Sources */,
 				D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */,
 				D622DE0E23FE94AF00CB90F7 /* DeleteNodeTest.swift in Sources */,
 				D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */,

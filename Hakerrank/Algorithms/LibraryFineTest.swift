@@ -2,7 +2,7 @@
 //  LibraryFineTest.swift
 //  Hakerrank
 //
-//  Created by Snappii on 2/24/20.
+//  Created on 2/24/20.
 //  Copyright © 2020 Max. All rights reserved.
 //
 

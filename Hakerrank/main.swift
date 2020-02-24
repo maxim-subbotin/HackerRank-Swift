@@ -44,7 +44,8 @@ ViralAdvertisingTest().run()*/
 //BetweenTwoSetsTest().run()
 //FindDigitsTest().run()
 //ExtraLongFactorialsTest().run()
-AppendAndDeleteTest().run()
+//AppendAndDeleteTest().run()
+SherlockAndSquaresTest().run()
 
 
 //Array2DTest().run()

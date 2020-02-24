@@ -11,28 +11,30 @@ import Foundation
 class AppendAndDeleteTest: PracticeTest {
     //let string1 = "hackerhappy"
     //let string2 = "hackerrank"
+    //let count = 9 // -> Yes
+    
+    //let string1 = "y"
+    //let string2 = "yu"
+    //let count = 2 // -> No
     
     //let string1 = "aba"
     //let string2 = "aba"
+    //let count = 7 // -> Yes
     
-    /*
-     y
-     yu
-     2
+    //let string1 = "abcd"
+    //let string2 = "abcdert"
+    //let count = 10 // -> No
+    
+    //let string1 = "abcdef"
+    //let string2 = "fedcba"
+    //let count = 15 // -> Yes
+    
+    let string1 = "aaa"
+    let string2 = "a"
+    let count = 5 // -> Yes
 
-     No
-     */
-    
-    /*
-     abcd
-     abcdert
-     10
-
-     No
-     */
-    
-    let string1 = "ashley"
-    let string2 = "ash"
+    //let string1 = "ashley"
+    //let string2 = "ash"
     
     override func preExecuteAction() {
         print("Append and Delete")
@@ -45,10 +47,10 @@ class AppendAndDeleteTest: PracticeTest {
     }
     
     override func execute() -> Any? {
-        return processStrings(string1, string2: string2)
+        return processStrings(string1, string2: string2, maxCount: count)
     }
     
-    func processStrings(_ string1: String, string2: String) -> Int {
+    func processStrings(_ string1: String, string2: String, maxCount: Int) -> Bool {
         // try to find common part
         let minLength = min(string1.count, string2.count)
         var commonString = ""
@@ -65,7 +67,18 @@ class AppendAndDeleteTest: PracticeTest {
         }
         
         let count = (array1.count - commonString.count) + (array2.count - commonString.count)
+        if maxCount < count {
+            return false
+        }
+        if maxCount > array1.count + array2.count {
+            return true
+        }
         
-        return count
+        let d = count - maxCount
+        if d % 2 == 0 {
+            return true
+        }
+        
+        return false
     }
 }

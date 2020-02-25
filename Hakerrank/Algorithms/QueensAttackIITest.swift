@@ -12,12 +12,17 @@ class QueensAttackIITest: PracticeTest {
     let size = 5
     let queenRow = 4
     let queenColumn = 3
-    let obstacles = [[5, 5], [4, 2], [2, 3]] // -> 10
+    let obstacles = [[5, 5], [4, 2], [2, 3]] // -> 10*/
     
     /*let size = 4
     let queenRow = 4
     let queenColumn = 4
-    let obstacles = [[Int]]() // -> 10*/
+    let obstacles = [[Int]]() // -> 9*/
+    
+    /*let size = 8
+    let queenRow = 4
+    let queenColumn = 4
+    let obstacles = [[3, 5]] // -> 24*/
     
     override func preExecuteAction() {
         print("Queen's Attack II")
@@ -41,57 +46,89 @@ class QueensAttackIITest: PracticeTest {
         if size == 2 {
             return 3 - obstacles.count
         }
-        /*if obstacles.count == 0 {
-            return (size - 1) * 2 +
-                    (size - queenRow) + max(0, queenRow - 1) +
-                    (size - queenColumn) + max(0, queenColumn - 1)
-        }*/
         
         //coordinates transformation, queen is center
         var trObstacles = obstacles.map({ [$0[0] - queenRow, $0[1] - queenColumn] })
-        var minRow = 0 - queenRow
-        var maxRow = size - queenRow
-        var minColumn = -queenColumn
-        var maxColumn = size - queenColumn
+        let minRow = 0 - queenRow + 1
+        let maxRow = size - queenRow
+        let minColumn = -queenColumn + 1
+        let maxColumn = size - queenColumn
+        
+        //remove wrong obstacles
+        trObstacles.removeAll(where: { !($0[0] == 0 || $0[1] == 0 || $0[0] == $0[1] || $0[0] == -$0[1]) })
         
         var count = 0
-        
-        var minBottom = minRow
-        var maxUp = maxRow
-        var minLeft = minColumn
-        var maxRight = maxColumn
-        for obs in trObstacles {
-            if obs[0] == 0 { // horizontal
-                if obs[1] < 0 {
-                    minLeft = max(obs[1], minLeft)
-                }
-                if obs[1] > 0 {
-                    maxRight = min(obs[1], maxRight)
-                }
+        // horizontal -> to left
+        var pos = 1
+        while pos <= maxColumn {
+            if trObstacles.first(where: { $0[0] == 0 && $0[1] == pos }) != nil {
+                break
             }
-            if obs[1] == 0 { // vertical
-                if obs[0] < 0 {
-                    minBottom = max(obs[0], minBottom)
-                }
-                if obs[0] > 0 {
-                    maxUp = min(obs[0], maxUp)
-                }
-            }
+            count += 1
+            pos += 1
         }
-        
-        //check horizontal beam
-        var from = minColumn
-        var to = maxColumn
-        let horizontalObstacles = trObstacles.filter({ $0[0] == 0 })
-        if horizontalObstacles.count > 0 {
-            let xs = horizontalObstacles.map({ $0[0] }).sorted()
-            if 0 < xs.first! {
-                to = xs.first!
-            } else if 0 > xs.last! {
-                from = xs.last!
-            } else {
-                
+        // horizontal -> to right
+        pos = -1
+        while pos >= minColumn {
+            if trObstacles.first(where: { $0[0] == 0 && $0[1] == pos }) != nil {
+                break
             }
+            count += 1
+            pos -= 1
+        }
+        // vertical -> to up
+        pos = 1
+        while pos <= maxRow {
+            if trObstacles.first(where: { $0[0] == pos && $0[1] == 0 }) != nil {
+                break
+            }
+            count += 1
+            pos += 1
+        }
+        // vertical -> to bottom
+        pos = -1
+        while pos >= minRow {
+            if trObstacles.first(where: { $0[0] == pos && $0[1] == 0 }) != nil {
+                break
+            }
+            count += 1
+            pos -= 1
+        }
+        // diagonal BottomLeft-TopRight -> up
+        pos = 1
+        while pos <= maxRow && pos <= maxColumn {
+            if trObstacles.first(where: { $0[0] == pos && $0[1] == pos }) != nil {
+                break
+            }
+            count += 1
+            pos += 1
+        }
+        // diagonal BottomLeft-TopRight -> down
+        pos = -1
+        while pos >= minRow && pos >= minColumn {
+            if trObstacles.first(where: { $0[0] == pos && $0[1] == pos }) != nil {
+                break
+            }
+            count += 1
+            pos -= 1
+        }
+        // diagonal TopLeft-BottomRight -> up
+        pos = 1
+        while pos <= maxRow && -pos >= minColumn {
+            if trObstacles.first(where: { $0[0] == pos && $0[1] == -pos }) != nil {
+                break
+            }
+            count += 1
+            pos += 1
+        }
+        // diagonal TopLeft-BottomRight -> down
+        pos = -1
+        while pos >= minRow && -pos <= maxColumn {
+            if trObstacles.first(where: { $0[0] == pos && $0[1] == -pos }) != nil {
+                break
+            }
+            count += 1
+            pos -= 1
         }
         
         return count

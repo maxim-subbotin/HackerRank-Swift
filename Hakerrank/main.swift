@@ -48,7 +48,11 @@ ViralAdvertisingTest().run()*/
 //SherlockAndSquaresTest().run()
 //LibraryFineTest().run()
 //CutTheSticksTest().run()
-NonDivisibleSubsetTest().run()
+//NonDivisibleSubsetTest().run()
+//JumpingOnTheCloudsTest().run()
+//RepeatedStringTest().run()
+//EqualizeTheArrayTest().run()
+QueensAttackIITest().run()
 
 
 //Array2DTest().run()

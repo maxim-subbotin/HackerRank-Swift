@@ -50,6 +50,8 @@
 		D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */; };
 		D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */; };
 		D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */; };
+		D6965D6D2405C15C00AC807A /* CycleDetectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6965D6C2405C15C00AC807A /* CycleDetectionTest.swift */; };
+		D6965D6F2405C87100AC807A /* NewYearChaosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6965D6E2405C87100AC807A /* NewYearChaosTest.swift */; };
 		D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192623FF251900D71B8F /* GetNodeValueTest.swift */; };
 		D69E192923FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */; };
 		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
@@ -135,6 +137,8 @@
 		D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumHeightTriangleTest.swift; sourceTree = "<group>"; };
 		D67E739923FD1A9300D4FC12 /* HandshakeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandshakeTest.swift; sourceTree = "<group>"; };
 		D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyGameTest.swift; sourceTree = "<group>"; };
+		D6965D6C2405C15C00AC807A /* CycleDetectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleDetectionTest.swift; sourceTree = "<group>"; };
+		D6965D6E2405C87100AC807A /* NewYearChaosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaosTest.swift; sourceTree = "<group>"; };
 		D69E192523FF077900D71B8F /* array_manipulation_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = array_manipulation_data.txt; path = Data/array_manipulation_data.txt; sourceTree = "<group>"; };
 		D69E192623FF251900D71B8F /* GetNodeValueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNodeValueTest.swift; sourceTree = "<group>"; };
 		D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesFromLinkedListTest.swift; sourceTree = "<group>"; };
@@ -297,6 +301,7 @@
 				D626788823FD4B3900EA4F3D /* LeftRotationTest.swift */,
 				D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */,
 				D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */,
+				D6965D6E2405C87100AC807A /* NewYearChaosTest.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				D622DE1723FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift */,
 				D69E192623FF251900D71B8F /* GetNodeValueTest.swift */,
 				D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */,
+				D6965D6C2405C15C00AC807A /* CycleDetectionTest.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -379,6 +385,7 @@
 			files = (
 				D613153324056FE0001F0776 /* QueensAttackIITest.swift in Sources */,
 				D6E8986023FC67A8009DBF2F /* SavePrisonerTest.swift in Sources */,
+				D6965D6D2405C15C00AC807A /* CycleDetectionTest.swift in Sources */,
 				D60B5D9C23F42D4000A1A2B4 /* KangarooTest.swift in Sources */,
 				D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */,
 				D60B5DA023F4432700A1A2B4 /* BreakingTheRecordsTest.swift in Sources */,
@@ -386,6 +393,7 @@
 				D6DFCB0423F6E90E00AA1395 /* DayOfProgrammerTest.swift in Sources */,
 				D6D1469223F2B682003FC8C5 /* DiagonalDifferenceTest.swift in Sources */,
 				D6C84E7D23FDC47B006B5B2E /* ArrayManipulationTest.swift in Sources */,
+				D6965D6F2405C87100AC807A /* NewYearChaosTest.swift in Sources */,
 				D60B5D8E23F3E68A00A1A2B4 /* BirthdayCakeCandlesTest.swift in Sources */,
 				D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */,
 				D626788923FD4B3900EA4F3D /* LeftRotationTest.swift in Sources */,

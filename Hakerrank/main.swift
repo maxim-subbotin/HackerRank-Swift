@@ -53,7 +53,10 @@ ViralAdvertisingTest().run()*/
 //RepeatedStringTest().run()
 //EqualizeTheArrayTest().run()
 //QueensAttackIITest().run()
-NewYearChaosTest().run()
+//NewYearChaosTest().run()
+//MinimumSwaps2Test().run()
+//BubbleSortTest().run()
+//MarkAndToysTest().run()
 
 
 //Array2DTest().run()
@@ -74,6 +77,8 @@ NewYearChaosTest().run()
 
 //FindThePointTest().run()
 //MaximumDrawsTest().run()
+//ConnectingTownsTest().run()
+CuttingPaperSquareTest().run()
 
 // Data structures
 

@@ -78,6 +78,11 @@
 		D6E8986023FC67A8009DBF2F /* SavePrisonerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */; };
 		D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */; };
 		D6E8986423FC73A2009DBF2F /* SequenceEquationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */; };
+		D6F7FA1B2406706A00F8EB40 /* MinimumSwaps2Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7FA1A2406706900F8EB40 /* MinimumSwaps2Test.swift */; };
+		D6F7FA1E2406977D00F8EB40 /* BubbleSortTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7FA1D2406977D00F8EB40 /* BubbleSortTest.swift */; };
+		D6F7FA2024069F1D00F8EB40 /* MarkAndToysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7FA1F24069F1D00F8EB40 /* MarkAndToysTest.swift */; };
+		D6F7FA282406B8E600F8EB40 /* ConnectingTownsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7FA272406B8E600F8EB40 /* ConnectingTownsTest.swift */; };
+		D6F7FA2A2406C7F700F8EB40 /* CuttingPaperSquaresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7FA292406C7F700F8EB40 /* CuttingPaperSquaresTest.swift */; };
 		D6FD9BDD23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD9BDC23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -167,6 +172,11 @@
 		D6E8985F23FC67A8009DBF2F /* SavePrisonerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePrisonerTest.swift; sourceTree = "<group>"; };
 		D6E8986123FC6D0D009DBF2F /* CircularArrayRotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotationTest.swift; sourceTree = "<group>"; };
 		D6E8986323FC73A2009DBF2F /* SequenceEquationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquationTest.swift; sourceTree = "<group>"; };
+		D6F7FA1A2406706900F8EB40 /* MinimumSwaps2Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSwaps2Test.swift; sourceTree = "<group>"; };
+		D6F7FA1D2406977D00F8EB40 /* BubbleSortTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTest.swift; sourceTree = "<group>"; };
+		D6F7FA1F24069F1D00F8EB40 /* MarkAndToysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAndToysTest.swift; sourceTree = "<group>"; };
+		D6F7FA272406B8E600F8EB40 /* ConnectingTownsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingTownsTest.swift; sourceTree = "<group>"; };
+		D6F7FA292406C7F700F8EB40 /* CuttingPaperSquaresTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuttingPaperSquaresTest.swift; sourceTree = "<group>"; };
 		D6FD9BDC23FE65A1001C420C /* PrintElementsOfLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintElementsOfLinkedListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +194,7 @@
 		D60B5D8F23F3FAC400A1A2B4 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				D6F7FA1C2406975B00F8EB40 /* Sorting */,
 				D6FD9BDB23FE62EF001C420C /* LinkedLists */,
 				D6FD9BDA23FE62DB001C420C /* Arrays */,
 			);
@@ -198,6 +209,8 @@
 				D67E739723FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift */,
 				D63BA8A223FB401B000258EC /* FindThePointTest.swift */,
 				D63BA8A423FB4316000258EC /* MaximumDrawsTest.swift */,
+				D6F7FA272406B8E600F8EB40 /* ConnectingTownsTest.swift */,
+				D6F7FA292406C7F700F8EB40 /* CuttingPaperSquaresTest.swift */,
 			);
 			path = Mathematics;
 			sourceTree = "<group>";
@@ -293,6 +306,15 @@
 			path = Algorithms;
 			sourceTree = "<group>";
 		};
+		D6F7FA1C2406975B00F8EB40 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				D6F7FA1D2406977D00F8EB40 /* BubbleSortTest.swift */,
+				D6F7FA1F24069F1D00F8EB40 /* MarkAndToysTest.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
 		D6FD9BDA23FE62DB001C420C /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +324,7 @@
 				D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */,
 				D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */,
 				D6965D6E2405C87100AC807A /* NewYearChaosTest.swift */,
+				D6F7FA1A2406706900F8EB40 /* MinimumSwaps2Test.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -410,6 +433,7 @@
 				D6D995A224000350003D5ED4 /* ExtraLongFactorialsTest.swift in Sources */,
 				D67E739823FD1A0A00D4FC12 /* MinimumHeightTriangleTest.swift in Sources */,
 				D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */,
+				D6F7FA2024069F1D00F8EB40 /* MarkAndToysTest.swift in Sources */,
 				D6DFCB0623F6EF0100AA1395 /* BonAppetitTest.swift in Sources */,
 				D60B5D9E23F4342900A1A2B4 /* BetweenTwoSetsTest.swift in Sources */,
 				D622DE1823FED20200CB90F7 /* MergeTwoSortedLinkedListsTest.swift in Sources */,
@@ -418,9 +442,11 @@
 				D63BA89C23FB33D8000258EC /* UtopianTreeTest.swift in Sources */,
 				D6C4BC5923F7D8FA0082A0BA /* CountingValleysTest.swift in Sources */,
 				D622DE1223FEB94600CB90F7 /* ReverseLinkedListTest.swift in Sources */,
+				D6F7FA1B2406706A00F8EB40 /* MinimumSwaps2Test.swift in Sources */,
 				D60B5D9623F407BF00A1A2B4 /* TimeConversionTest.swift in Sources */,
 				D63BA8A323FB401B000258EC /* FindThePointTest.swift in Sources */,
 				D646F7542404500E008FA2B8 /* NonDivisibleSubsetTest.swift in Sources */,
+				D6F7FA2A2406C7F700F8EB40 /* CuttingPaperSquaresTest.swift in Sources */,
 				D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */,
 				D622DE0E23FE94AF00CB90F7 /* DeleteNodeTest.swift in Sources */,
 				D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */,
@@ -444,11 +470,13 @@
 				D622DE1023FEAF8A00CB90F7 /* PrintInReverseTest.swift in Sources */,
 				D60B5D9823F4113A00A1A2B4 /* GradingStudentsTest.swift in Sources */,
 				D60B5DA223F4486200A1A2B4 /* BirthdayChocolateTest.swift in Sources */,
+				D6F7FA282406B8E600F8EB40 /* ConnectingTownsTest.swift in Sources */,
 				D622DE0C23FE800600CB90F7 /* InsertNodeAtPositionTest.swift in Sources */,
 				D6D1469023F2B018003FC8C5 /* CompareTheTripletsTest.swift in Sources */,
 				D6D995A024000067003D5ED4 /* FindDigitsTest.swift in Sources */,
 				D6D1469423F2E029003FC8C5 /* PlusMinusTest.swift in Sources */,
 				D63BA89E23FB33D8000258EC /* DesignerPDFViewerTest.swift in Sources */,
+				D6F7FA1E2406977D00F8EB40 /* BubbleSortTest.swift in Sources */,
 				D6D1468423F2A850003FC8C5 /* main.swift in Sources */,
 				D6D1469823F302A5003FC8C5 /* MiniMaxTest.swift in Sources */,
 				D6383BCC23F9AA37006CAE27 /* ClimbingLeaderboardTest.swift in Sources */,

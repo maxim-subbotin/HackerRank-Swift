@@ -57,6 +57,11 @@ ViralAdvertisingTest().run()*/
 //MinimumSwaps2Test().run()
 //BubbleSortTest().run()
 //MarkAndToysTest().run()
+//ACM_ICPC_TeamTest().run()
+//GemstonesTest().run()
+//TaumAndBdayTest().run()
+//SherlockAndMovingTilesTest().run()
+BestDivisorTest().run()
 
 
 //Array2DTest().run()
@@ -78,7 +83,9 @@ ViralAdvertisingTest().run()*/
 //FindThePointTest().run()
 //MaximumDrawsTest().run()
 //ConnectingTownsTest().run()
-CuttingPaperSquareTest().run()
+//CuttingPaperSquareTest().run()
+//LeonardosPrimeFactorsTest().run()
+//SummingNSeriesTest().run()
 
 // Data structures
 

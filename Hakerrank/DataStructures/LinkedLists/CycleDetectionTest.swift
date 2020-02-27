@@ -10,6 +10,17 @@ import Foundation
 
 class CycleDetectionTest: PracticeTest {
     /*
-     Looks description of input data is unclear
+     Python code:
+     
+    def has_cycle(head):
+        node = head
+        nextNode = head
+        while nextNode != None and nextNode.next != None:
+            node = node.next
+            nextNode = nextNode.next.next
+            if node == nextNode:
+                return True
+        return False
+     
      */
 }

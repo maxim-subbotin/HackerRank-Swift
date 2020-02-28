@@ -60,6 +60,10 @@
 		D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */; };
 		D6965D6D2405C15C00AC807A /* CycleDetectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6965D6C2405C15C00AC807A /* CycleDetectionTest.swift */; };
 		D6965D6F2405C87100AC807A /* NewYearChaosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6965D6E2405C87100AC807A /* NewYearChaosTest.swift */; };
+		D69CFF0F2409267C009EAAE7 /* RestaurantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFF0E2409267C009EAAE7 /* RestaurantTest.swift */; };
+		D69CFF11240928E7009EAAE7 /* ReverseGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFF10240928E7009EAAE7 /* ReverseGameTest.swift */; };
+		D69CFF132409485A009EAAE7 /* StrangeGridAgainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFF122409485A009EAAE7 /* StrangeGridAgainTest.swift */; };
+		D69CFF152409550A009EAAE7 /* DiwaliLightsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFF142409550A009EAAE7 /* DiwaliLightsTest.swift */; };
 		D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192623FF251900D71B8F /* GetNodeValueTest.swift */; };
 		D69E192923FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */; };
 		D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5423F7D2A60082A0BA /* SockMerchantTest.swift */; };
@@ -160,6 +164,10 @@
 		D67E739A23FD1A9300D4FC12 /* ArmyGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyGameTest.swift; sourceTree = "<group>"; };
 		D6965D6C2405C15C00AC807A /* CycleDetectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleDetectionTest.swift; sourceTree = "<group>"; };
 		D6965D6E2405C87100AC807A /* NewYearChaosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaosTest.swift; sourceTree = "<group>"; };
+		D69CFF0E2409267C009EAAE7 /* RestaurantTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTest.swift; sourceTree = "<group>"; };
+		D69CFF10240928E7009EAAE7 /* ReverseGameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGameTest.swift; sourceTree = "<group>"; };
+		D69CFF122409485A009EAAE7 /* StrangeGridAgainTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeGridAgainTest.swift; sourceTree = "<group>"; };
+		D69CFF142409550A009EAAE7 /* DiwaliLightsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiwaliLightsTest.swift; sourceTree = "<group>"; };
 		D69E192523FF077900D71B8F /* array_manipulation_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = array_manipulation_data.txt; path = Data/array_manipulation_data.txt; sourceTree = "<group>"; };
 		D69E192623FF251900D71B8F /* GetNodeValueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNodeValueTest.swift; sourceTree = "<group>"; };
 		D69E192823FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesFromLinkedListTest.swift; sourceTree = "<group>"; };
@@ -231,6 +239,10 @@
 				D63442862407CABF00D30B59 /* SummingNSeriesTest.swift */,
 				D63442902408015A00D30B59 /* SherlockAndMovingTilesTest.swift */,
 				D6344292240815B100D30B59 /* BestDivisorTest.swift */,
+				D69CFF0E2409267C009EAAE7 /* RestaurantTest.swift */,
+				D69CFF10240928E7009EAAE7 /* ReverseGameTest.swift */,
+				D69CFF122409485A009EAAE7 /* StrangeGridAgainTest.swift */,
+				D69CFF142409550A009EAAE7 /* DiwaliLightsTest.swift */,
 			);
 			path = Mathematics;
 			sourceTree = "<group>";
@@ -435,6 +447,7 @@
 				D63442852407B6B000D30B59 /* LeonardosPrimeFactorsTest.swift in Sources */,
 				D634428D2407EB3900D30B59 /* TaunAndBdayTest.swift in Sources */,
 				D6965D6D2405C15C00AC807A /* CycleDetectionTest.swift in Sources */,
+				D69CFF152409550A009EAAE7 /* DiwaliLightsTest.swift in Sources */,
 				D60B5D9C23F42D4000A1A2B4 /* KangarooTest.swift in Sources */,
 				D6344293240815B100D30B59 /* BestDivisorTest.swift in Sources */,
 				D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */,
@@ -453,6 +466,7 @@
 				D6D995A424003132003D5ED4 /* AppendAndDeleteTest.swift in Sources */,
 				D69E192923FF28BA00D71B8F /* DeleteDuplicatesFromLinkedListTest.swift in Sources */,
 				D6D1469623F2E704003FC8C5 /* StaircaseTest.swift in Sources */,
+				D69CFF132409485A009EAAE7 /* StrangeGridAgainTest.swift in Sources */,
 				D63BA89A23FB33D8000258EC /* AngryProfessorTest.swift in Sources */,
 				D6E8986423FC73A2009DBF2F /* SequenceEquationTest.swift in Sources */,
 				D63442892407D6F600D30B59 /* ACM_ICPC_TeamTest.swift in Sources */,
@@ -481,6 +495,7 @@
 				D6E8986223FC6D0D009DBF2F /* CircularArrayRotationTest.swift in Sources */,
 				D622DE0E23FE94AF00CB90F7 /* DeleteNodeTest.swift in Sources */,
 				D67E739B23FD1A9300D4FC12 /* HandshakeTest.swift in Sources */,
+				D69CFF11240928E7009EAAE7 /* ReverseGameTest.swift in Sources */,
 				D6C4BC5523F7D2A60082A0BA /* SockMerchantTest.swift in Sources */,
 				D67E739C23FD1A9300D4FC12 /* ArmyGameTest.swift in Sources */,
 				D60B5D9123F3FAEE00A1A2B4 /* ReverseArrayTest.swift in Sources */,
@@ -502,6 +517,7 @@
 				D622DE1023FEAF8A00CB90F7 /* PrintInReverseTest.swift in Sources */,
 				D60B5D9823F4113A00A1A2B4 /* GradingStudentsTest.swift in Sources */,
 				D60B5DA223F4486200A1A2B4 /* BirthdayChocolateTest.swift in Sources */,
+				D69CFF0F2409267C009EAAE7 /* RestaurantTest.swift in Sources */,
 				D6F7FA282406B8E600F8EB40 /* ConnectingTownsTest.swift in Sources */,
 				D622DE0C23FE800600CB90F7 /* InsertNodeAtPositionTest.swift in Sources */,
 				D6D1469023F2B018003FC8C5 /* CompareTheTripletsTest.swift in Sources */,

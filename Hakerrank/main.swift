@@ -61,7 +61,11 @@ ViralAdvertisingTest().run()*/
 //GemstonesTest().run()
 //TaumAndBdayTest().run()
 //SherlockAndMovingTilesTest().run()
-BestDivisorTest().run()
+//BestDivisorTest().run()
+//RestaurantTest().run()
+//ReverseGameTest().run()
+//StrangeGridAgainTest().run()
+DiwaliLightsTest().run()
 
 
 //Array2DTest().run()

@@ -65,7 +65,10 @@ ViralAdvertisingTest().run()*/
 //RestaurantTest().run()
 //ReverseGameTest().run()
 //StrangeGridAgainTest().run()
-DiwaliLightsTest().run()
+//DiwaliLightsTest().run()
+//JumpingOnTheCloudsRevisitedTest().run()
+//EncryptionTest().run()
+BeautifulTripletsTest().run()
 
 
 //Array2DTest().run()

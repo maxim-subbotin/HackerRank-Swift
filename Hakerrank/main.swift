@@ -68,7 +68,11 @@ ViralAdvertisingTest().run()*/
 //DiwaliLightsTest().run()
 //JumpingOnTheCloudsRevisitedTest().run()
 //EncryptionTest().run()
-BeautifulTripletsTest().run()
+//BeautifulTripletsTest().run()
+//BiggerIsGreaterTest().run()
+//FraudulentActivityNotificationsTest().run()
+//ModifiedKaprekarNumbersTest().run()
+MinimumDistancesTest().run()
 
 
 //Array2DTest().run()

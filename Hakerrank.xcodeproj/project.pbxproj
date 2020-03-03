@@ -82,6 +82,7 @@
 		D6C4BC5B23F7F2B90082A0BA /* ElectronicsShopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */; };
 		D6C84E7B23FDBCD0006B5B2E /* SparseArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */; };
 		D6C84E7D23FDC47B006B5B2E /* ArrayManipulationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */; };
+		D6D0B4C0240EEBEA009D9C02 /* FlatlandSpaceStationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0B4BF240EEBEA009D9C02 /* FlatlandSpaceStationsTest.swift */; };
 		D6D1468423F2A850003FC8C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468323F2A850003FC8C5 /* main.swift */; };
 		D6D1468C23F2A8AA003FC8C5 /* PracticeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */; };
 		D6D1468E23F2A925003FC8C5 /* SimpleArraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1468D23F2A925003FC8C5 /* SimpleArraySumTest.swift */; };
@@ -199,6 +200,7 @@
 		D6C4BC5A23F7F2B90082A0BA /* ElectronicsShopTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShopTest.swift; sourceTree = "<group>"; };
 		D6C84E7A23FDBCD0006B5B2E /* SparseArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparseArraysTest.swift; sourceTree = "<group>"; };
 		D6C84E7C23FDC47B006B5B2E /* ArrayManipulationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulationTest.swift; sourceTree = "<group>"; };
+		D6D0B4BF240EEBEA009D9C02 /* FlatlandSpaceStationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStationsTest.swift; sourceTree = "<group>"; };
 		D6D1468023F2A850003FC8C5 /* Hakerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hakerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D1468323F2A850003FC8C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D6D1468B23F2A8AA003FC8C5 /* PracticeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTest.swift; sourceTree = "<group>"; };
@@ -372,6 +374,7 @@
 				D6B6652D240E84BA00337578 /* LisaWorkbookTest.swift */,
 				D6B6652F240E8CF700337578 /* GridSearchTest.swift */,
 				D6B66531240EAC4300337578 /* 3DSurfaceAreaTest.swift */,
+				D6D0B4BF240EEBEA009D9C02 /* FlatlandSpaceStationsTest.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				D69E192723FF251900D71B8F /* GetNodeValueTest.swift in Sources */,
 				D60B5DA023F4432700A1A2B4 /* BreakingTheRecordsTest.swift in Sources */,
 				D60B5D9A23F41CDD00A1A2B4 /* AppleAndOrangeTest.swift in Sources */,
+				D6D0B4C0240EEBEA009D9C02 /* FlatlandSpaceStationsTest.swift in Sources */,
 				D63442872407CABF00D30B59 /* SummingNSeriesTest.swift in Sources */,
 				D6DFCB0423F6E90E00AA1395 /* DayOfProgrammerTest.swift in Sources */,
 				D6D1469223F2B682003FC8C5 /* DiagonalDifferenceTest.swift in Sources */,

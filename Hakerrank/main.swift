@@ -72,8 +72,12 @@ ViralAdvertisingTest().run()*/
 //BiggerIsGreaterTest().run()
 //FraudulentActivityNotificationsTest().run()
 //ModifiedKaprekarNumbersTest().run()
-MinimumDistancesTest().run()
-
+//MinimumDistancesTest().run()
+//HalloweenSaleTest().run()
+//ServiceLaneTest().run()
+//LisaWorkbookTest().run()
+//GridSearchTest().run()
+ThreeDSurfaceAreaTest().run()
 
 //Array2DTest().run()
 //LeftRotationTest().run()
